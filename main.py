@@ -46,7 +46,6 @@ def main():
     )
 
     st.write("Click the button below to generate a seed phrase.")
-    # st.table("Wallets with Balance")
 
     if st.button("Generate Seed Phrase"):
         for _ in range(
